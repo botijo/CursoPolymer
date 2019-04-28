@@ -1,0 +1,22 @@
+{
+  "name": "hola-keepcoding-polymer-scratch",
+  "authors": [
+    "Jose A Contreras <jose_antoniocon@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^3.2.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^2.2.10"
+  }
+}

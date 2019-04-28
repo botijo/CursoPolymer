@@ -1,0 +1,33 @@
+Apuntes Polymer
+Necesario:
+CustomElements
+Shadow DOM (Nos da encapsulacion al CSS y JS, y puede aportar seguridad)
+HTML Template (Contenido solo en el cliente) Muestra la web sin renderizar(cargar) las cosas que no se usaran en este mismo momento.
+HTML imports (importamos html llama a los componentes) <link rel="import" href="/component/master.html>"
+
+
+instalar nodejs: sudo apt-get install nodejs
+instalar bower: sudo npm i -g bower
+creamos el archivo bower.json: bower init
+
+Polyfills : agrega a los navegadores la posibilidad de usar ciertas tecnologias como los import, ya que muchos navegadores
+aun, no estan provistos de estas tecnologias.
+El Polyfills webcomponent: bower install --save webcomponents/webcomponentsjs
+
+ 
+Polymer:
+bower install --save polymer
+
+polymer cli //herramienta
+sudo npm install -g polymer-cli --unsafe-perm ///  npm i polymer-cli
+sudo npm install -g polymer-cli@1.6.0 --unsafe-perm
+
+polymer init
+
+
+
+
+
+
+
+NOTA: tooltips css (bocadillos con mensajes descriptivos en los campos de la web)

@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="hola-keepconding-polymer-cli">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `hola-keepconding-polymer-cli`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class HolaKeepcondingPolymerCli extends Polymer.Element {
+      static get is() { return 'hola-keepconding-polymer-cli'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'hola-keepconding-polymer-cli'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(HolaKeepcondingPolymerCli.is, HolaKeepcondingPolymerCli);
+  </script>
+</dom-module>
